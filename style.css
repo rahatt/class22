@@ -1,0 +1,83 @@
+
+
+/* header */
+
+.background{
+    width: 1224px;
+    border: 1px solid #fafa;
+    margin: 40px auto;
+    background-color: #f6f6f6;
+}
+.ved h5 {
+    color: #229ae1;
+    line-height: 45px;
+}
+
+.header ul{
+    text-align: right;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: 22px;
+    position: relative;
+}
+.header ul li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 0;
+    height: 2px;
+    background: rgb(192, 35, 35);
+    transition: .5s;
+    visibility: hidden;
+}
+
+.header ul li a:hover::before{
+  visibility: visible;
+  position: absolute;
+  left: 18px;
+  width: 60px;
+}
+
+/* slider */
+
+.sliderSection{
+    background: url(https://images.unsplash.com/photo-1498798821241-1f327af804fe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJveSUyMGRhcmt8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80&fbclid=IwAR1jLC1XIfDraVSFfaD5KZ8NqnLxxIl3NipFPnYhSovZ8ABY4ckD5XjpfCI) center;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+/* bioSection */
+
+.bioSection{
+    margin-top: 40px;
+}
+
+.imgg-left img{
+    width: 330px;
+}
+
+.biodata {
+    margin-left: 65px;
+}
+
+.click {
+    background-color: #5cc0de;
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* fotterSection */
+
+.fotterSection{
+    background-color: #005ece;
+    padding: 20px 0;
+}
+
